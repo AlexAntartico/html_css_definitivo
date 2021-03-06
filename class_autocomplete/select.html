@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="Como usar select en tu pagina web"/>
+    <meta name="robots" content="index,follow"/>
+    <meta http-equiv="X-UA-Compatible" content="IE-edge"/>
+    <title>Usar select en pagina web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<!-- 
+    Esto es como ahcer un selecto de maner no muy buena
+    <body>
+    <main>
+        <select name="cursos" id="">
+            <option value=""></option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="HTML5">HTML5</option>
+            <option value="CSS3">CSS3</option>
+            <option value="web standards">web standards</option>
+           Recuerda que aqui, el value es lo que se guarda en una base de datos, si no pones nada, no se gravaria nada en la db 
+        </select>
+    </main>
+</body>
+</html>-->
+
+<body>
+    <main>
+        <!-- Esta es la forma ideal de hacer un select asi el usuario no debe de hacer un scroll infinito y si no existe una opcion, el usuario la puede capturar y enviarla en formato de texto libre -->
+        <input list="cursos"/>
+        <datalist id="cursos">
+            <option value=""></option>
+            <option value="JavaScript"></option>
+            <option value="HTML5"></option>
+            <option value="CSS3"></option>
+            <option value="web standards"></option>
+        </datalist>
+    </main>
+</body>
+</html>
