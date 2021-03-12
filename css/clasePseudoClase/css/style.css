@@ -1,0 +1,37 @@
+.main-nav {
+    margin-top: 10px;
+    /* below take off bullets from list */
+    list-style: none;
+    padding-left: 0;
+    background-color: #13A4A4;
+}
+
+.main-nav__item{
+    display: inline-block;
+}
+
+/* Esto se llama ser especifico en css, se le indica a css que
+dentro de la clase .main-nav__item los elementos a, tengan
+un formato especifico */
+.main-nav__item a {
+    color: white;
+    padding: 2px;
+    /* lo de abajo te redondea un poco las esquinas */
+    border-radius: 6px;
+    /* Le quita el subrayado a los anchors */
+    text-decoration: none;
+    background-color: red;
+}
+
+/* Esto es una pseudoclase, cuando se haga hover sobre un a 
+tag se cambiara el estilo a lo especificado */
+.main-nav__item a:hover {
+    color: blueviolet;
+}
+
+pseudo elementos, se llama con cuatro puntitos ::
+
+.main-nav__item a::after {
+    content: " | ";
+}
+
