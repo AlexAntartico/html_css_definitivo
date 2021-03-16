@@ -1,5 +1,13 @@
+* {
+    margin: 0;
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
     font-family: serif;
+    color: purple;
+    margin-bottom: .8rem;
 }
 
 #page-title {
@@ -7,6 +15,28 @@ h1 {
 }
 
 .title {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-family: monospace;
+}
+
+#main-nav {
+    margin-top: .8rem;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#main-nav li {
+    display: inline-block;
+}
+
+#main-nav a {
+    color: white;
+    background-color: #13a4A4;
+    padding: .45rem;
+    border-radius: .15rem;
+    text-decoration: none;
+}
+
+#main-nav .blog {
+    background-color: red;
 }
