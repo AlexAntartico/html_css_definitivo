@@ -1,0 +1,8 @@
+
+h2 ~ p {
+    color: red;
+}
+
+/* Al hermano general se le aplica el mismo estilo siempre y cuando
+estos elementos se encuentren a la misma altura del codigo, en este caso
+dentro del mismo contenedor div */
