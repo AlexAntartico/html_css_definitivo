@@ -1,0 +1,9 @@
+h2 + p {
+    color: red;
+}
+/* 
+adjacent sibling o hermano adyacente (+) lo que hace es decirle a css,
+para cada p despues de un h2, aplica el formato de css
+formalmente, separa dos selectores y coincide el estilo del segundo elemento
+solo si esta precedido INMEDIATAMENTE por el primer elemento y ambos
+son hijos del mismo padre element */
