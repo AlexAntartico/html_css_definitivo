@@ -1,0 +1,11 @@
+.text-container {
+    font-size: 1.5em;
+}
+
+.text-container div {
+    font-size: 1.5em;
+}
+
+/* Recuerda que em obtiene su medida base del elemento padre asi
+que en este ejemplo, cada div obtiene como medida "base" el 1.5 
+de lo que su medida anterior. */
