@@ -1,0 +1,14 @@
+/* div > p { */
+    /* se lee, de el padre div que sea mayor que una etiqueta parrafo
+    agregale lo siguiente: */
+    /* color: red; */
+    /* se le conoce como hijo directo */
+/* } */
+
+div p {
+    /* descendiente, todas las etiquetas p dentro de un contenedor, es el 
+    mas habitual y sumamente generico, aplicando estos cambios a TODO 
+    el documento se le aplica el estilo rojo por que todas las etiquetas 
+    p estan dentro de un div en mayor o menor medida. */
+    color: red;
+}
