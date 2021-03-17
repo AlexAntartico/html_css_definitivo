@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+main_div {
+    font-size: 1.6rem;
+}
+
+/* rem hace referencia a la etiqueta root o html, el navegador 
+le agrega x default 16 px a rem, asi que esta nunca va a variar, esto
+hace que un rem pueda ser muy distinto a un em previo o anidado. */
+
