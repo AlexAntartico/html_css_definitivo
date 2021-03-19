@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+
+/* se necesita tener un with base, min lo limita cuando decrece
+y max lo limita cuando crece */
+section {
+    width: 80%;
+    min-width: 20rem;
+    max-width: 31.25rem;
+    min-height: 31.25rem;
+    margin: 0 auto;
+    background-color: red;
+}
+
+
+/* Un problema de overflow ws cuando el texto o contenido se sale
+de las medidad que tenemos */
+/* min height estabele una altura minima, pero si el contenido crece
+el contenedor tmb crece */
