@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    background-color: #12343b;
+    color: whitesmoke;
+    font-size: 2rem;
+    padding: 3rem;
+    
+}
+
+/* Classes */ 
+
+.nav {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+
+.nav__list {
+    list-style: none;
+}
+
