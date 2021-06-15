@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #2e2a4d;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* Classes */
+
+.nav  {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+
+.nav__list {
+    list-style: none;
+}
